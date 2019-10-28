@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"></androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:id="@+id/tvRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:drawableLeft="@mipmap/camera"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="随拍"
+        android:textColor="@color/gray1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/tablayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tablayout" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+        android:layout_height="10dp"
+        android:background="@color/gray1"
+        app:layout_constraintBottom_toBottomOf="@id/tablayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tablayout" />
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/mTabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@color/transparent"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tl_indicator_style="NORMAL"
+        app:tl_tab_padding="10dp"
+        app:tl_textBold="BOTH"
+        tl:tl_iconVisible="false"
+        tl:tl_indicator_color="@color/white"
+        tl:tl_indicator_corner_radius="1.5dp"
+        tl:tl_indicator_height="2dp"
+        tl:tl_textsize="18sp" />
+
+    <com.qmuiteam.qmui.widget.QMUITabSegment
+        android:id="@+id/tablayout"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:background="@color/transparent"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:qmui_tab_mode="fixed">
+
+    </com.qmuiteam.qmui.widget.QMUITabSegment>
+
+    <ImageView
+        android:id="@+id/ivLive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:background="@mipmap/live"
+        app:layout_constraintBottom_toBottomOf="@id/tablayout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tablayout" />
+
+    <ImageView
+
+        android:id="@+id/ivSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:background="@mipmap/search"
+        app:layout_constraintBottom_toBottomOf="@id/tablayout"
+        app:layout_constraintRight_toLeftOf="@id/ivLive"
+        app:layout_constraintTop_toTopOf="@id/tablayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

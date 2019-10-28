@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.imkit"
+4    android:versionCode="2019071515"
+5    android:versionName="2.9.20 Dev" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml
+10
+11    <!-- 访问相册，访问文件系统等 -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:6:22-77
+13    <!-- 发送位置消息，实时位置共享 -->
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:8:5-81
+14-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:8:22-78
+15    <!-- 拍照 -->
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:10:5-65
+16-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:10:22-62
+17    <!-- 拍照等 -->
+18    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+18-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:12:5-73
+18-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:12:22-70
+19    <!-- 音视频 -->
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:14:5-78
+20-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:14:22-75
+21    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+21-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:15:5-85
+21-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:15:22-82
+22    <!-- 网络 -->
+23    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+23-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:17:5-76
+23-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:17:22-73
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:18:5-67
+24-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:18:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:19:5-79
+25-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:19:22-76
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:20:5-76
+26-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:20:22-73
+27    <!-- 录音 -->
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+28-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:22:5-71
+28-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:22:22-68
+29    <!-- 使用ActivityManager需要 -->
+30    <uses-permission android:name="android.permission.GET_TASKS" />
+30-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:24:5-68
+30-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:24:22-65
+31    <!-- 适配 Android 8.0 -->
+32    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+32-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:26:5-83
+32-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:26:22-80
+33    <!-- 保存图片，拍照等 -->
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:28:5-81
+34-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:28:22-78
+35    <!-- 新消息震动提醒 -->
+36    <uses-permission android:name="android.permission.VIBRATE" />
+36-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:30:5-66
+36-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:30:22-63
+37
+38    <application>
+38-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:32:5-119:19
+39        <activity
+39-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:34:9-36:52
+40            android:name="io.rong.imkit.plugin.location.AMapLocationActivity"
+40-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:35:13-78
+41            android:screenOrientation="portrait" />
+41-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:36:13-49
+42        <activity
+42-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:37:9-39:52
+43            android:name="io.rong.imkit.plugin.location.AMapLocationActivity2D"
+43-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:38:13-80
+44            android:screenOrientation="portrait" />
+44-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:39:13-49
+45        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity" />
+45-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:41:9-86
+45-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:41:19-83
+46        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity2D" />
+46-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:42:9-88
+46-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:42:19-85
+47        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity" />
+47-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:44:9-87
+47-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:44:19-84
+48        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity2D" />
+48-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:45:9-89
+48-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:45:19-86
+49        <activity
+49-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:47:9-50:71
+50            android:name="io.rong.imkit.plugin.location.SearchLocationActivity"
+50-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:48:13-80
+51            android:screenOrientation="portrait"
+51-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:49:13-49
+52            android:windowSoftInputMode="stateVisible|adjustResize" />
+52-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:50:13-68
+53        <activity
+53-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:52:9-55:52
+54            android:name="io.rong.imkit.plugin.image.PictureSelectorActivity"
+54-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:53:13-78
+55            android:configChanges="keyboardHidden|orientation|screenSize"
+55-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:54:13-74
+56            android:screenOrientation="portrait" />
+56-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:55:13-49
+57        <activity
+57-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:57:9-59:52
+58            android:name="io.rong.imkit.plugin.image.PicturePreviewActivity"
+58-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:58:13-77
+59            android:screenOrientation="portrait" />
+59-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:59:13-49
+60
+61        <!-- 开发者可以修改 RongBaseActivity 的 rc_base_activity_layout 布局文件调整 actionbar -->
+62        <activity
+62-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:62:9-70:20
+63            android:name="io.rong.imkit.tools.RongWebviewActivity"
+63-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:63:13-67
+64            android:exported="false"
+64-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:64:13-37
+65            android:screenOrientation="portrait" >
+65-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:65:13-49
+66            <intent-filter>
+66-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:66:13-69:29
+67                <action android:name="io.rong.imkit.intent.action.webview" />
+67-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:67:17-78
+67-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:67:25-75
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:68:17-76
+69-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:68:27-73
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:72:9-75:52
+73            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+73-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:73:13-80
+74            android:configChanges="orientation|keyboardHidden"
+74-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:74:13-63
+75            android:screenOrientation="portrait" />
+75-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:75:13-49
+76        <activity
+76-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:77:9-85:20
+77            android:name="io.rong.imkit.activity.PicturePagerActivity"
+77-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:78:13-71
+78            android:exported="false"
+78-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:79:13-37
+79            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+79-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:80:13-71
+80            <intent-filter>
+80-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:81:13-84:29
+81                <action android:name="io.rong.imkit.intent.action.picturepagerview" />
+81-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:82:17-87
+81-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:82:25-84
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:68:17-76
+83-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:68:27-73
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:87:9-90:67
+87            android:name="io.rong.imkit.mention.MemberMentionedActivity"
+87-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:88:13-73
+88            android:configChanges="orientation|keyboardHidden"
+88-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:89:13-63
+89            android:windowSoftInputMode="adjustPan|stateHidden" />
+89-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:90:13-64
+90        <activity android:name="io.rong.imkit.activity.FileManagerActivity" />
+90-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:91:9-79
+90-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:91:19-76
+91        <activity android:name="io.rong.imkit.activity.FileListActivity" />
+91-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:92:9-76
+91-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:92:19-73
+92        <activity
+92-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:93:9-101:20
+93            android:name="io.rong.imkit.activity.FilePreviewActivity"
+93-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:94:13-70
+94            android:exported="false"
+94-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:95:13-37
+95            android:screenOrientation="portrait" >
+95-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:96:13-49
+96            <intent-filter>
+96-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:97:13-100:29
+97                <action android:name="io.rong.imkit.intent.action.openfile" />
+97-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:98:17-79
+97-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:98:25-76
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:68:17-76
+99-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:68:27-73
+100            </intent-filter>
+101        </activity>
+102        <activity
+102-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:103:9-106:52
+103            android:name="io.rong.imkit.activity.CSLeaveMessageActivity"
+103-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:104:13-60
+104            android:configChanges="orientation|keyboardHidden"
+104-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:105:13-63
+105            android:screenOrientation="portrait" />
+105-->/Users/mac/Desktop/FakeVibrato-master/IMKit/src/main/AndroidManifest.xml:106:13-49
+106
+107        <!-- 此部分代码需要移植到您的 app 下的 manifest，并且 authorities 指定您的包名。例如：com.android.FileProvider -->
+108        <!-- 否则使用拍照功能时，会崩溃 -->
+109        <!-- <provider -->
+110        <!-- android:name="android.support.v4.content.FileProvider" -->
+111        <!-- android:authorities="包名.FileProvider" -->
+112        <!-- android:grantUriPermissions="true" -->
+113        <!-- android:exported="false"> -->
+114        <!-- <meta-data -->
+115        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+116        <!-- android:resource="@xml/rc_file_path"/> -->
+117        <!-- </provider> -->
+118    </application>
+119
+120</manifest>

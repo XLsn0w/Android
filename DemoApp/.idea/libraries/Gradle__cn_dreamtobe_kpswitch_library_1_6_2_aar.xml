@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.dreamtobe.kpswitch:library:1.6.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c5c73291c3cf207f8f823655537a383/library-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c5c73291c3cf207f8f823655537a383/library-1.6.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.dreamtobe.kpswitch/library/1.6.2/545d76d7974203b816af272f5c8110903cb6fdb8/library-1.6.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.dreamtobe.kpswitch/library/1.6.2/c1328c7ad8232d62fe4d4d37b155f7d0d1bbf3b2/library-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

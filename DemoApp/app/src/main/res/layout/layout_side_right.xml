@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/side_right"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/right_Linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black1"
+        android:orientation="vertical"
+        android:paddingTop="60dp">
+
+        <TextView
+            android:id="@+id/tvCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/card"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="个人名片"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvPentagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/pentagram"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="我的收藏"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvWallet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/pentagram"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="钱包"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/order"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="订单"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:drawableStart="@mipmap/pentagram"
+            android:drawableEnd="@mipmap/down_white"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="服务"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/llService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="45dp">
+
+
+            <TextView
+                android:id="@+id/tvShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="购物助手"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvLifeOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="生活服务订单"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvDOU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="DOU+上热门"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tvFlow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="免流量看抖音"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewService"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tvCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/coupon"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="卡券"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvMinor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/umbrella"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="未成年保护工具"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/setting_white"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="设置"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tvApplets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:drawableStart="@mipmap/applets"
+            android:drawableEnd="@mipmap/down_white"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="小程序"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/llApplets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="45dp">
+
+        <TextView
+            android:id="@+id/tvHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/headline"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="头条专栏"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/headline"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="头条专栏"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

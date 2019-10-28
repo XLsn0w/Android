@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba.android:virtual-common:1.0.11@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.android/virtual-common/1.0.11/9b57a7401bff58b1d30a47ac3ef86d6dc51d408/virtual-common-1.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.android/virtual-common/1.0.11/7077eac300214f70b6d7e7df1123c113cf279843/virtual-common-1.0.11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.android/virtual-common/1.0.11/a71e7439c66393ec77420cf06952964011517a8f/virtual-common-1.0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
