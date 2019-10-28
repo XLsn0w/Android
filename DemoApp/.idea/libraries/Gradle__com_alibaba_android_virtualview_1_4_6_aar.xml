@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.alibaba.android:virtualview:1.4.6@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a60925495f05b9b90a2e6e792088bfc8/jetified-virtualview-1.4.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1e46a4111528a2b9ec65d9b8ca8f555/jetified-virtualview-1.4.6/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a60925495f05b9b90a2e6e792088bfc8/jetified-virtualview-1.4.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a60925495f05b9b90a2e6e792088bfc8/jetified-virtualview-1.4.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1e46a4111528a2b9ec65d9b8ca8f555/jetified-virtualview-1.4.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1e46a4111528a2b9ec65d9b8ca8f555/jetified-virtualview-1.4.6/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.android/virtualview/1.4.6/5d0357d9af01740af1fd8edf7410c92e8655b0d8/virtualview-1.4.6-javadoc.jar!/" />

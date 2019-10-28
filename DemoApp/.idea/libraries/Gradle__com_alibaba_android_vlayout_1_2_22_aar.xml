@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.alibaba.android:vlayout:1.2.22@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c447237bf7811b9fd51bbbf0e580341/jetified-vlayout-1.2.22/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5fcd326383ca6aeda5f2d2e83f101445/jetified-vlayout-1.2.22/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c447237bf7811b9fd51bbbf0e580341/jetified-vlayout-1.2.22/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c447237bf7811b9fd51bbbf0e580341/jetified-vlayout-1.2.22/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5fcd326383ca6aeda5f2d2e83f101445/jetified-vlayout-1.2.22/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5fcd326383ca6aeda5f2d2e83f101445/jetified-vlayout-1.2.22/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.android/vlayout/1.2.22/1c60abdb07b32ad7c1a9e4a209fc5c3df8815b9a/vlayout-1.2.22-javadoc.jar!/" />
