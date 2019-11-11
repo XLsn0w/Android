@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="length">
+        <item>千米 km</item>
+        <item>米 m</item>
+        <item>分米 dm</item>
+        <item>厘米 cm</item>
+        <item>毫米 mm</item>
+        <item>微米 um</item>
+        <item>纳米 nm</item>
+    </string-array>
+    <string-array name="volume">
+        <item>立方米 m3</item>
+        <item>立方分米 dm3</item>
+        <item>立方厘米 cm3</item>
+        <item>升 l</item>
+        <item>毫升 ml</item>
+    </string-array>
+</resources>

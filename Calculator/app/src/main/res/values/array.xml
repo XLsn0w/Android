@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="length">
+        <item>千米 km</item>
+        <item>米 m</item>
+        <item>分米 dm</item>
+        <item>厘米 cm</item>
+        <item>毫米 mm</item>
+        <item>微米 um</item>
+        <item>纳米 nm</item>
+    </string-array>
+</resources>
