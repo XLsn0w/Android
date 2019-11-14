@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: jp.wasabeef:glide-transformations:4.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0075f14de94c32d23fc6dbe568a57d54/jetified-glide-transformations-4.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0075f14de94c32d23fc6dbe568a57d54/jetified-glide-transformations-4.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cb69502ab0e37b6c8f159f9417a590c/jetified-glide-transformations-4.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cb69502ab0e37b6c8f159f9417a590c/jetified-glide-transformations-4.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef/glide-transformations/4.1.0/2591ed8b0addefbed90f432e25df2af1d64ef5d4/glide-transformations-4.1.0-javadoc.jar!/" />
