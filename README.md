@@ -5,11 +5,11 @@
          init进程启动系统所需的各种守护线程
          init进程根据init.rc文件中的配置创建启动Zygote进程
 
-         Zygote进程 开启一个Socket接口来监听请求
-         接收到app启动请求后，复制自身快速提供Dalvik虚拟机实例来执行应用程序
+    Zygote进程 开启一个Socket接口来监听请求
+    接收到app启动请求后，复制自身快速提供Dalvik虚拟机实例来执行应用程序
          
-         Zygote会启动一个系统服务System Server管理进程，该进程会启动Android所有系统核心服务，包括Activity Manager Service、Package Manager Service等service
-         启动Launcher进程
+    Zygote会启动一个系统服务System Server管理进程，该进程会启动Android所有系统核心服务，包括Activity Manager Service、Package Manager Service等service
+    启动Launcher进程
 
 
 App启动流程：
